@@ -28,25 +28,23 @@ code {
 }
 
 .login-top {
-  min-width: 400px;
+  width: 400px;
   padding: 40px;
-  background-color: #2ec4b6ff;
+  background-color: white;
   display: flex;
   justify-content: center;
   border-radius: 10px;
   gap: 10px;
-  box-shadow: 1px 1px 5px black;
   align-items: center;
 }
 
 .form-container {
   min-width: 400px;
   gap: 1em;
-  background: #e71d36ff;
+  background: white;
   display: flex;
   padding: 40px;
   border-radius: 10px;
-  box-shadow: 1px 1px 5px black;
   flex-direction: column;
   align-items: center;
 }
@@ -55,7 +53,7 @@ a {
 }
 form {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
   gap: 1rem;
 }
@@ -67,12 +65,15 @@ input {
   padding: 10px;
   border-radius: 5px;
   font-size: 16px;
+  width: 200px;
 }
 button {
   padding: 10px;
   font-size: 20px;
-  border-radius: 3px;
+  border-radius: 10px;
   box-shadow: 1px 1px 5px black;
-  color: #011627ff;
-  background-color: #fdfffcff;
+  color: white;
+  background-color: #e71d36ff;
+  width: 200px;
+  margin-top: 10px;
 }
